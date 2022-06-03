@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #d64760;
+			color: #4774d6;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -371,7 +371,7 @@ input, select, textarea {
 		}
 
 			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
+				border-right: solid 10px black;
 			}
 
 		#main .item {
@@ -385,7 +385,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin: 5px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.4);
 		}
 
 			#main .item.span-1 {
@@ -401,7 +401,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: #1066bc;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
